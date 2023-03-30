@@ -1,0 +1,48 @@
+/* Applique une police de caractères sans-serif à tout le document */
+body {
+	font-family: sans-serif;
+}
+
+/* Ajoute une bordure et une ombre à la boîte de formulaire */
+form {
+	border: 2px solid #ccc;
+	box-shadow: 0 0 10px #ccc;
+	padding: 20px;
+	margin: 20px auto;
+	max-width: 500px;
+}
+
+/* Centre le titre de la page */
+h1 {
+	text-align: center;
+}
+
+/* Ajoute un peu d'espace entre les champs de formulaire */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	margin-bottom: 10px;
+}
+
+/* Applique un style de bouton de formulaire */
+input[type="submit"] {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+/* Change la couleur de fond et de texte des champs de formulaire en focus */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+	background-color: #f0f0f0;
+	color: #333;
+}
